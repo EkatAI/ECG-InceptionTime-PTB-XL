@@ -39,6 +39,8 @@ ECG-InceptionTime-PTB-XL/
 │
 ├── README.md
 │
+├──ecg_inceptiontime_ptbxl.ipynb
+│
 ├── src/
 │   ├── config.py
 │   ├── model.py
