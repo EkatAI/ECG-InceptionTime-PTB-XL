@@ -75,8 +75,7 @@ ECG-InceptionTime-PTB-XL/
     ├── InceptionTimeECG_full_torch_model.pt
     └── InceptionTimeECG.pth
 
-## Структура репозитория
-
+'''
 | Путь | Описание |
 |---|---|
 | `ecg_inceptiontime_ptbxl.ipynb` | Основной ноутбук для запуска эксперимента в Kaggle: подготовка данных, обучение модели, оценка качества и построение графиков. |
