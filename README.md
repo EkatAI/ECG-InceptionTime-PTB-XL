@@ -35,25 +35,40 @@
 ## Структура репозитория
 
 ```
-.
-├── practice.ipynb
+ECG-InceptionTime-PTB-XL/
+│
+├── README.md
+│
 ├── src/
 │   ├── config.py
 │   ├── model.py
 │   ├── data_utils.py
 │   ├── train_eval.py
 │   └── plots.py
+│
 ├── figures/
 │   ├── class_distribution.png
 │   ├── confusion_matrices.png
+│   ├── confusion_matrix_CD.png
+│   ├── confusion_matrix_HYP.png
+│   ├── confusion_matrix_MI.png
+│   ├── confusion_matrix_NORM.png
+│   ├── confusion_matrix_STTC.png
 │   ├── loss_history.png
 │   ├── accuracy_history.png
 │   └── precision_recall_curves.png
+│
 ├── tables/
 │   ├── validation_results.csv
 │   ├── test_results.csv
 │   └── training_history.csv
+│
 ├── artifacts/
 │   ├── best_thresholds.npy
 │   └── mlb.pkl
-└── README.md
+│
+└── models/
+    ├── InceptionTimeECG_checkpoint.pt
+    ├── InceptionTimeECG_learner.pkl
+    ├── InceptionTimeECG_full_torch_model.pt
+    └── InceptionTimeECG.pth
